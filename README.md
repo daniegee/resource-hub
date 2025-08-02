@@ -44,3 +44,14 @@
 
 ## Developer Quick References
 [CheatSheets.zip - Ultimate Cheat for Developers](https://cheatsheets.zip/#google_vignette)
+
+<br /> 
+
+## UI/UX Generators
+[Neumorphism CSS shadow generator](https://neumorphism.io/#a72525)
+
+<br />
+
+## Component Libraries
+[Uiverse | The Largest Library of Open-Source UI elements](https://uiverse.io/)
+[Chakra UI](https://v2.chakra-ui.com/getting-started)
