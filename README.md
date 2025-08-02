@@ -58,3 +58,17 @@
 
 ### Graphs + Diagrams
 [Echarts - TypeScript | Javascript](https://echarts.apache.org/examples/en/#chart-type-pie)
+
+<br />
+
+## Agile
+[Manifesto for Agile Software Development](https://agilemanifesto.org/)
+
+### Scrum
+
+[Scrum Guide](https://scrumguides.org/scrum-guide.html)
+
+<br />
+
+## DevOps
+[DORA | DORA Quick Check](https://dora.dev/quickcheck/#questions)
