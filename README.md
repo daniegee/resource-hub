@@ -55,3 +55,6 @@
 ## Component Libraries
 [Uiverse | The Largest Library of Open-Source UI elements](https://uiverse.io/)
 [Chakra UI](https://v2.chakra-ui.com/getting-started)
+
+### Graphs + Diagrams
+[Echarts - TypeScript | Javascript](https://echarts.apache.org/examples/en/#chart-type-pie)
