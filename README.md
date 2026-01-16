@@ -105,3 +105,5 @@
 ## For the curious
 
 [Map of GitHub](https://anvaka.github.io/map-of-github/#3.49/-13.41/50.32)
+
+[Internet Artifacts](https://neal.fun/internet-artifacts/)
