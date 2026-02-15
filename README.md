@@ -63,11 +63,25 @@
 <br />
 
 ## Component Libraries
-
 [Uiverse | The Largest Library of Open-Source UI elements](https://uiverse.io/)
+
 [Chakra UI](https://v2.chakra-ui.com/getting-started)
+
 [MarsX-dev/floatui](https://github.com/MarsX-dev/floatui)
+
 [Siumauricio/rippleui](https://github.com/Siumauricio/rippleui)
+
+[Tailwind Components](https://daisyui.com/components/)
+
+[Float UI - Free open source Tailwind UI components & Templates](https://floatui.com/)
+
+[The Foundation for your Design System - shadcn/ui](https://ui.shadcn.com/)
+
+[Magic UI](https://magicui.design/)
+
+[HeroUI (Previously NextUI) - Beautiful, fast and modern React UI Library](https://www.heroui.com/)
+
+[Headless UI - Unstyled, fully accessible UI components](https://headlessui.com/)
 
 
 ### Graphs + Diagrams
