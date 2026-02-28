@@ -60,6 +60,8 @@
 
 [Neumorphism CSS shadow generator](https://neumorphism.io/#a72525)
 
+[Material Design](https://m2.material.io/design/color/the-color-system.html#color-usage-and-palettes)
+
 <br />
 
 ## Component Libraries
