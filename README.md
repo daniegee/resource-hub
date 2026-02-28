@@ -118,6 +118,10 @@
 [techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)
 [Learn PWA  |  web.dev](https://web.dev/learn/pwa/)
 
+## APIs
+
+[Learn | GraphQL](https://graphql.org/learn/)
+
 ## For the curious
 
 [Map of GitHub](https://anvaka.github.io/map-of-github/#3.49/-13.41/50.32)
