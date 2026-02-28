@@ -60,7 +60,7 @@
 
 [Neumorphism CSS shadow generator](https://neumorphism.io/#a72525)
 
-[Material Design](https://m2.material.io/design/color/the-color-system.html#color-usage-and-palettes)
+[[Material Design](https://m2.material.io/design/color/the-color-system.html#color-usage-and-palettes)](https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors)
 
 <br />
 
