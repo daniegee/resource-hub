@@ -251,6 +251,7 @@ Build-your-own project ideas to sharpen systems fundamentals:
 
 - **[Tinywow.com](https://tinywow.com)** - 100+ free tools: convert PDFs, edit videos, remove backgrounds, compress files, everything. Basically a Swiss-Army knife for creators.
 - **[removepaywall.com](https://removepaywall.com)** - Read any article without paywalls, signups, or tracking.
+- **[Grad Connection](https://au.gradconnection.com/)** - Australian platform connecting students and graduates with internships and graduate job programs.
 
 **[⬆ back to top](#contents)**
 
