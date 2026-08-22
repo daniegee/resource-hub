@@ -1,0 +1,23 @@
+name: Table of Contents Check
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "scripts/check-toc.mjs"
+      - ".github/workflows/toc-check.yml"
+
+jobs:
+  toc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check Contents section matches headings
+        run: node scripts/check-toc.mjs

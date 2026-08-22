@@ -31,6 +31,8 @@ A curated collection of links, tools, and references worth bookmarking - from de
   - [Design Inspiration](#design-inspiration)
   - [Design Assets](#design-assets)
 - [VS Code](#vs-code)
+  - [Extensions](#extensions)
+  - [Themes](#themes)
 - [Handy Tools](#handy-tools)
 - [Just for Fun & Curiosities](#just-for-fun--curiosities)
   - [Just for Fun](#just-for-fun)
@@ -45,6 +47,7 @@ A curated collection of links, tools, and references worth bookmarking - from de
 - [Azure DevOps Documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
 
 **Earn a Badge 📛**
+
 - [Get started with Azure DevOps - Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/evolve-your-devops-practices/)
 
 ### Git
@@ -82,6 +85,7 @@ A curated collection of links, tools, and references worth bookmarking - from de
 - [For Engineers - PagerDuty Security Training](https://sudo.pagerduty.com/for_engineers/)
 
 **Securing Agents**
+
 - [LlamaFirewall](https://meta-llama.github.io/PurpleLlama/LlamaFirewall/)
 
 **[⬆ back to top](#contents)**
@@ -99,6 +103,7 @@ A curated collection of links, tools, and references worth bookmarking - from de
 - [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 
 **Scrum**
+
 - [Scrum Guide](https://scrumguides.org/scrum-guide.html)
 
 ### DevOps
@@ -194,11 +199,13 @@ Build-your-own project ideas to sharpen systems fundamentals:
 - [Headless UI - Unstyled, Fully Accessible UI Components](https://headlessui.com/)
 
 **Graphs + Diagrams**
+
 - [Echarts - TypeScript | JavaScript](https://echarts.apache.org/examples/en/#chart-type-pie)
 - [Next AI Draw.io - AI-Powered Diagram Generator](https://next-ai-drawio.jiang.jp)
 - [FossFLOW - Isometric Diagramming Tool](https://stan-smith.github.io/FossFLOW/)
 
 **Icons**
+
 - [lucide-icons/lucide - Icon Toolkit](https://github.com/lucide-icons/lucide)
 - [Icons8 - Free Icons, Clipart Illustrations, Photos, and Music](https://icons8.com/)
 - [Iconly Pro](https://iconly.pro/)

@@ -1,0 +1,19 @@
+# Configuration for the lychee link checker.
+# https://lychee.cli.rs/#/usage/config
+
+# Some sites block automated requests or rate-limit them rather than
+# actually being down, so treat these as passing rather than dead.
+accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 307, 308, 403, 429]
+
+timeout = 20
+retry_wait_time = 5
+max_retries = 3
+
+# The default lychee UA gets blocked by some sites; look like a browser.
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+exclude = [
+  # LinkedIn short links block automated HEAD/GET requests outright,
+  # even though they resolve fine in a real browser.
+  '^https://lnkd\.in/',
+]
