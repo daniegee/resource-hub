@@ -31,6 +31,8 @@ A curated collection of links, tools, and references worth bookmarking - from de
   - [Design Inspiration](#design-inspiration)
   - [Design Assets](#design-assets)
 - [VS Code](#vs-code)
+  - [Extensions](#extensions)
+  - [Themes](#themes)
 - [Handy Tools](#handy-tools)
 - [Just for Fun & Curiosities](#just-for-fun--curiosities)
   - [Just for Fun](#just-for-fun)

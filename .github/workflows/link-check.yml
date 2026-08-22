@@ -1,0 +1,33 @@
+name: Link Check
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --no-progress --verbose --format markdown --output lychee-report.md "**/*.md"
+          fail: true
+        continue-on-error: true
+
+      - name: Create issue for dead links
+        if: steps.lychee.outcome == 'failure'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Dead links found in weekly link check"
+          content-filepath: ./lychee-report.md
+          labels: dead-links, automated
+
+      - name: Fail job if links are broken
+        if: steps.lychee.outcome == 'failure'
+        run: exit 1
