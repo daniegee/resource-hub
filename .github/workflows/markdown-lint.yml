@@ -9,12 +9,13 @@ on:
 
 jobs:
   lint:
+    name: Lint Markdown Files
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Run markdownlint-cli2
+      - name: Lint Markdown with markdownlint
         uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           globs: "**/*.md"
