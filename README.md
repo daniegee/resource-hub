@@ -76,6 +76,26 @@
 
 <br />
 
+## AI Tools
+
+###### [Futuretools.io](https://www.futuretools.io)
+A massive library of AI tools categorized by use-case (video, writing, business, design, etc.) If you want to stay ahead in the AI wave this is the treasure map.
+
+###### [Mymind.com](https://mymind.com)
+A private, AI-powered notebook that saves links, quotes, images and organizes them beautifully. For anyone who researches, writes, or builds.
+
+<br />
+
+## Handy Tools
+
+###### [Tinywow.com](https://tinywow.com)
+100+ free tools - convert PDFs, edit videos, remove backgrounds, compress files, everything. Basically a Swiss-Army knife for creators.
+
+###### [removepaywall.com](https://removepaywall.com)
+Read any article without paywalls, signups, or tracking.
+
+<br />
+
 ## UI/UX Generators
 
 [Neumorphism CSS shadow generator](https://neumorphism.io/#a72525)
@@ -119,6 +139,48 @@
 [lucide-icons/lucide: Icon Toolkit](https://github.com/lucide-icons/lucide)
 [Free Icons, Clipart Illustrations, Photos, and Music - Icons8](https://icons8.com/)
 [Iconly Pro](https://iconly.pro/)
+[Clickons - 500 open-source fill and stroke icons](https://craftwork.design/product/clickons)
+
+<br />
+
+## Design Inspiration
+
+###### [Mobbin](https://mobbin.com)
+The world's largest UI & UX design reference library. Perfect for designers looking to enhance their projects.
+
+###### [Awwwards](https://www.awwwards.com)
+Awwwards showcases and awards the best web designs worldwide, offering the best website inspiration.
+
+###### [Dark Design](https://dark.design)
+A collection of the best hand-picked dark themed websites on the internet.
+
+###### [Refero](https://refero.design)
+The most advanced design research tool. Discover inspiration in real-world design examples for web & iOS.
+
+###### [Design Spells](https://designspells.com)
+A large library of micro-interactions, easter eggs, and other seemingly extra design details.
+
+<br />
+
+## Design Assets
+
+###### [Ultima](https://ultima.storytale.io/)
+Large free bundle of 30 packs filled with 750+ illustrations in a variety of styles and topics.
+
+###### [Slam](https://storytale.io/pack/347)
+Beautiful 3D illustrations of tools and gadgets.
+
+###### [Phone Clay Mockup](https://craftwork.design/downloads/clay-free-mockup)
+Simple but yet high-quality clay mockups of iPhone 14.
+
+###### [Resume Templates](https://craftwork.design/downloads/resume-templates)
+20 universal templates for respectable curriculum vitae presenting.
+
+###### [Blurr Wallpapers](https://craftwork.design/downloads/blurr-wallpapers)
+Free pack of 8 blurred wallpapers in 5K resolution for desktop and mobile devices.
+
+###### [Apple Design Resources - Apple Developer](https://developer.apple.com/design/resources/?cid=ADC-DM-c00334-M00703)
+Official templates, UI kits, and fonts for designing apps across Apple platforms.
 
 <br />
 
@@ -155,6 +217,7 @@
 [Software Engineering Tutorial](https://www.guru99.com/software-engineering-tutorial.html)
 [jassics/security-study-plan](https://github.com/jassics/security-study-plan)
 [techiescamp/kubernetes-learning-path](https://github.com/techiescamp/kubernetes-learning-path)
+[The Algorithms - Learn Data Structures & Algorithms](https://the-algorithms.com/)
 [Learn PWA  |  web.dev](https://web.dev/learn/pwa/)
 
 ## APIs
@@ -192,6 +255,9 @@ Open a terminal and run:
 telnet towel.blinkenlights.nl
 ```
 
+###### [Incredibox](https://www.incredibox.com)
+Create music mixes using animated beat-box characters - fun and oddly satisfying.
+
 <br />
 
 ## For the curious
@@ -200,3 +266,4 @@ telnet towel.blinkenlights.nl
 
 [Internet Artifacts](https://neal.fun/internet-artifacts/)
 [Making Software](https://www.makingsoftware.com/)
+[Open Library - Library of old and recent books](https://openlibrary.org/)
