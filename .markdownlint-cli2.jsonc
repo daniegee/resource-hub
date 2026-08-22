@@ -1,0 +1,11 @@
+{
+  "config": {
+    "default": true,
+    // Link descriptions run long by design for a resource list - not worth wrapping.
+    "MD013": false,
+    // Bold callout lines (e.g. "**Earn a Badge**") are intentional, not stand-in headings.
+    "MD036": false
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules"]
+}
