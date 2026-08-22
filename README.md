@@ -84,6 +84,21 @@ A massive library of AI tools categorized by use-case (video, writing, business,
 ###### [Mymind.com](https://mymind.com)
 A private, AI-powered notebook that saves links, quotes, images and organizes them beautifully. For anyone who researches, writes, or builds.
 
+###### [Collaborative AI - Lucidspark](https://lucidspark.com/product/collaborative-ai)
+AI-assisted brainstorming and whiteboarding for teams.
+
+###### [Spinach.io](https://www.spinach.io/)
+AI meeting assistant that turns standups and syncs into notes and action items.
+
+###### [Rewind](https://www.rewind.ai/)
+An AI-powered personal memory that records and makes searchable everything you've seen, said, or heard.
+
+###### [Otter.ai Integrations](https://otter.ai/integrations)
+AI meeting transcription that connects with your favorite calendar and conferencing tools.
+
+###### [Napkin AI](https://www.napkin.ai/)
+Turns text into visuals for business storytelling and presentations.
+
 <br />
 
 ## Handy Tools
