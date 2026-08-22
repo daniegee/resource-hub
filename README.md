@@ -48,7 +48,7 @@
 
 ## Security
 
-[Learn to Hack](https://www.hacksplaining.com/)
+[Security Vulnerabilities](https://www.hacksplaining.com/)
 
 [For Engineers - PagerDuty Security Training](https://sudo.pagerduty.com/for_engineers/)
 
