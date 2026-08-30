@@ -14,22 +14,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check links with Lychee
-        id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
           args: --config lychee.toml --no-progress --verbose --format markdown "**/*.md"
           output: lychee-report.md
           fail: true
-        continue-on-error: true
-
-      - name: Open issue for dead links
-        if: steps.lychee.outcome == 'failure'
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: "Dead links found in weekly link check"
-          content-filepath: ./lychee-report.md
-          labels: dead-links, automated
-
-      - name: Fail job if links are broken
-        if: steps.lychee.outcome == 'failure'
-        run: exit 1

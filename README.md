@@ -202,7 +202,7 @@ Build-your-own project ideas to sharpen systems fundamentals:
 
 - [Echarts - TypeScript | JavaScript](https://echarts.apache.org/examples/en/#chart-type-pie)
 - [Next AI Draw.io - AI-Powered Diagram Generator](https://next-ai-drawio.jiang.jp)
-- [FossFLOW - Isometric Diagramming Tool](https://stan-smith.github.io/FossFLOW/)
+- [FossFLOW - Isometric Diagramming Tool](https://abrar74774.github.io/FossFLOW/)
 
 **Icons**
 
