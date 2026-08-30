@@ -137,20 +137,20 @@ A curated collection of links, tools, and references worth bookmarking - from de
 
 Build-your-own project ideas to sharpen systems fundamentals:
 
-- [Redis Server](https://lnkd.in/eHRCAmCE)
-- [URL Shortener](https://lnkd.in/ezCc8EFR)
-- [Application Load Balancer](https://lnkd.in/eiBRVHNu)
-- [DNS Resolver](https://lnkd.in/eUB3nyxC)
-- [Git Client](https://lnkd.in/eG6jYyRm)
-- [Scheduling App](https://lnkd.in/eKDSRhdS)
-- [Rate Limiter](https://lnkd.in/e2C2RB4M)
-- [Message Broker](https://lnkd.in/eaFGTxKT)
-- [Web Server](https://lnkd.in/ezBDppnb)
-- [Memcached Server](https://lnkd.in/esGquJTy)
-- [IRC Client](https://lnkd.in/eqWfX_JR)
-- [Discord Bot](https://lnkd.in/emAymj8b)
-- [Spotify Client](https://lnkd.in/eGDB9zgN)
-- [JSON Parser](https://lnkd.in/ejWVe4H6)
+- [Redis Server](https://codingchallenges.fyi/challenges/challenge-redis/)
+- [URL Shortener](https://codingchallenges.fyi/challenges/challenge-url-shortener/)
+- [Application Load Balancer](https://codingchallenges.fyi/challenges/challenge-load-balancer/)
+- [DNS Resolver](https://codingchallenges.fyi/challenges/challenge-dns-resolver/)
+- [Git Client](https://codingchallenges.fyi/challenges/challenge-git/)
+- [Scheduling App](https://codingchallenges.fyi/challenges/challenge-scheduler/)
+- [Rate Limiter](https://codingchallenges.fyi/challenges/challenge-rate-limiter/)
+- [Message Broker](https://codingchallenges.fyi/challenges/challenge-nats/)
+- [Web Server](https://codingchallenges.fyi/challenges/challenge-webserver/)
+- [Memcached Server](https://codingchallenges.fyi/challenges/challenge-memcached/)
+- [IRC Client](https://codingchallenges.fyi/challenges/challenge-irc/)
+- [Discord Bot](https://codingchallenges.fyi/challenges/challenge-discord/)
+- [Spotify Client](https://codingchallenges.fyi/challenges/challenge-spotify/)
+- [JSON Parser](https://codingchallenges.fyi/challenges/challenge-json-parser/)
 
 **[⬆ back to top](#contents)**
 
