@@ -7,13 +7,15 @@ on:
 
 jobs:
   linkcheck:
+    name: Check for Broken Links
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Link Checker
+      - name: Check links with Lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --config lychee.toml --no-progress --verbose --format markdown --output lychee-report.md "**/*.md"
+          args: --config lychee.toml --no-progress --verbose --format markdown "**/*.md"
+          output: lychee-report.md
           fail: true

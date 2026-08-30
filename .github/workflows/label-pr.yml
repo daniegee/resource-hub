@@ -1,0 +1,96 @@
+name: Label PR
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const typeMap = {
+              fix:      { name: 'fix',         color: 'd73a4a', description: 'Bug fix' },
+              chore:    { name: 'chore',       color: 'e4e669', description: 'Maintenance task' },
+              refactor: { name: 'refactor',    color: 'f9d0c4', description: 'Code refactor' },
+              style:    { name: 'style',       color: 'fef2c0', description: 'Code style / formatting' },
+              ci:       { name: 'CI/CD',       color: '006b75', description: 'CI/CD changes' },
+              docs:     { name: 'documentation', color: 'cfd3d7', description: 'Documentation changes' },
+            };
+
+            const title = context.payload.pull_request.title;
+            const prNumber = context.payload.pull_request.number;
+            const validTypes = Object.keys(typeMap).join(', ');
+
+            const match = title.match(/^(\w+)(\(.+\))?!?:/);
+            if (!match) {
+              core.setFailed(
+                `PR title "${title}" does not follow conventional commit format.\n` +
+                `Expected: <type>(<scope>): <description>\n` +
+                `Example:  feat(parser): add support for markdown tables\n` +
+                `Valid types: ${validTypes}`
+              );
+              return;
+            }
+
+            const label = typeMap[match[1].toLowerCase()];
+            if (!label) {
+              core.setFailed(
+                `Unknown commit type "${match[1]}" in PR title "${title}".\n` +
+                `Valid types: ${validTypes}`
+              );
+              return;
+            }
+
+            // Create the label if it doesn't exist yet
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: label.name,
+              });
+            } catch {
+              await github.rest.issues.createLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: label.name,
+                color: label.color,
+                description: label.description,
+              });
+            }
+
+            // Only add — never remove existing labels (respects Dependabot etc.)
+            const { data: current } = await github.rest.issues.listLabelsOnIssue({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+
+            if (!current.find(l => l.name === label.name)) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                labels: [label.name],
+              });
+            }
+
+      # A review can't be requested from the PR author, so skip self-authored PRs
+      - name: Request review from daniegee
+        if: always() && github.event.action == 'opened' && github.event.pull_request.user.login != 'daniegee'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            await github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+              reviewers: ['daniegee'],
+            });
