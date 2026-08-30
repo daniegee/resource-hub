@@ -48,7 +48,7 @@ A curated collection of links, tools, and references worth bookmarking - from de
 
 **Earn a Badge 📛**
 
-- [Get started with Azure DevOps - Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/evolve-your-devops-practices/)
+- [Get started with Azure DevOps - Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/get-started/?view=azure-devops)
 
 ### Git
 
@@ -77,7 +77,7 @@ A curated collection of links, tools, and references worth bookmarking - from de
 ### Vulnerability Knowledge Bases
 
 - [MITRE ATT&CK®](https://attack.mitre.org/)
-- [OpenCVE Dashboard & Alerting](https://app.opencve.io/)
+- [OpenCVE Dashboard & Alerting](https://app.opencve.io/cve/)
 
 ### Security Practices
 
@@ -164,11 +164,11 @@ Build-your-own project ideas to sharpen systems fundamentals:
 
 ### AI Tools
 
-- **[Futuretools.io](https://www.futuretools.io)** - A massive library of AI tools categorized by use-case (video, writing, business, design, etc.) If you want to stay ahead in the AI wave, this is the treasure map.
+- **[Futuretools.io](https://futuretools.io)** - A massive library of AI tools categorized by use-case (video, writing, business, design, etc.) If you want to stay ahead in the AI wave, this is the treasure map.
 - **[Mymind.com](https://mymind.com)** - A private, AI-powered notebook that saves links, quotes, images and organizes them beautifully. For anyone who researches, writes, or builds.
-- **[Collaborative AI - Lucidspark](https://lucidspark.com/product/collaborative-ai)** - AI-assisted brainstorming and whiteboarding for teams.
-- **[Spinach.io](https://www.spinach.io/)** - AI meeting assistant that turns standups and syncs into notes and action items.
-- **[Rewind](https://www.rewind.ai/)** - An AI-powered personal memory that records and makes searchable everything you've seen, said, or heard.
+- **[Collaborative AI - Lucidspark](https://lucid.co/lucidspark/use-cases/ai)** - AI-assisted brainstorming and whiteboarding for teams.
+- **[Spinach.io](https://www.spinach.ai/)** - AI meeting assistant that turns standups and syncs into notes and action items.
+- **[Rewind](https://rewind.ai/)** - An AI-powered personal memory that records and makes searchable everything you've seen, said, or heard.
 - **[Otter.ai Integrations](https://otter.ai/integrations)** - AI meeting transcription that connects with your favorite calendar and conferencing tools.
 - **[Napkin AI](https://www.napkin.ai/)** - Turns text into visuals for business storytelling and presentations.
 
@@ -195,13 +195,13 @@ Build-your-own project ideas to sharpen systems fundamentals:
 - [Float UI - Free Open Source Tailwind UI Components & Templates](https://floatui.com/)
 - [The Foundation for your Design System - shadcn/ui](https://ui.shadcn.com/)
 - [Magic UI](https://magicui.design/)
-- [HeroUI (Previously NextUI) - Beautiful, Fast and Modern React UI Library](https://www.heroui.com/)
+- [HeroUI (Previously NextUI) - Beautiful, Fast and Modern React UI Library](https://heroui.com/)
 - [Headless UI - Unstyled, Fully Accessible UI Components](https://headlessui.com/)
 
 **Graphs + Diagrams**
 
 - [Echarts - TypeScript | JavaScript](https://echarts.apache.org/examples/en/#chart-type-pie)
-- [Next AI Draw.io - AI-Powered Diagram Generator](https://next-ai-drawio.jiang.jp)
+- [Next AI Draw.io - AI-Powered Diagram Generator](https://next-ai-drawio.jiang.jp/en)
 - [FossFLOW - Isometric Diagramming Tool](https://abrar74774.github.io/FossFLOW/)
 
 **Icons**
@@ -215,7 +215,7 @@ Build-your-own project ideas to sharpen systems fundamentals:
 
 - **[Mobbin](https://mobbin.com)** - The world's largest UI & UX design reference library. Perfect for designers looking to enhance their projects.
 - **[Awwwards](https://www.awwwards.com)** - Awwwards showcases and awards the best web designs worldwide, offering the best website inspiration.
-- **[Dark Design](https://dark.design)** - A collection of the best hand-picked dark themed websites on the internet.
+- **[Dark Design](https://www.dark.design/)** - A collection of the best hand-picked dark themed websites on the internet.
 - **[Refero](https://refero.design)** - The most advanced design research tool. Discover inspiration in real-world design examples for web & iOS.
 - **[Design Spells](https://designspells.com)** - A large library of micro-interactions, easter eggs, and other seemingly extra design details.
 
@@ -223,9 +223,9 @@ Build-your-own project ideas to sharpen systems fundamentals:
 
 - **[Ultima](https://ultima.storytale.io/)** - Large free bundle of 30 packs filled with 750+ illustrations in a variety of styles and topics.
 - **[Slam](https://storytale.io/pack/347)** - Beautiful 3D illustrations of tools and gadgets.
-- **[Phone Clay Mockup](https://craftwork.design/downloads/clay-free-mockup)** - Simple but high-quality clay mockups of the iPhone 14.
-- **[Resume Templates](https://craftwork.design/downloads/resume-templates)** - 20 universal templates for respectable curriculum vitae presenting.
-- **[Blurr Wallpapers](https://craftwork.design/downloads/blurr-wallpapers)** - Free pack of 8 blurred wallpapers in 5K resolution for desktop and mobile devices.
+- **[Phone Clay Mockup](https://craftwork.design/search/clay-free-mockup)** - Simple but high-quality clay mockups of the iPhone 14.
+- **[Resume Templates](https://craftwork.design/search/resume-templates)** - 20 universal templates for respectable curriculum vitae presenting.
+- **[Blurr Wallpapers](https://craftwork.design/search/blurr-wallpapers)** - Free pack of 8 blurred wallpapers in 5K resolution for desktop and mobile devices.
 - **[Apple Design Resources - Apple Developer](https://developer.apple.com/design/resources/?cid=ADC-DM-c00334-M00703)** - Official templates, UI kits, and fonts for designing apps across Apple platforms.
 
 **[⬆ back to top](#contents)**
@@ -250,7 +250,7 @@ Build-your-own project ideas to sharpen systems fundamentals:
 ## Handy Tools
 
 - **[Tinywow.com](https://tinywow.com)** - 100+ free tools: convert PDFs, edit videos, remove backgrounds, compress files, everything. Basically a Swiss-Army knife for creators.
-- **[removepaywall.com](https://removepaywall.com)** - Read any article without paywalls, signups, or tracking.
+- **[removepaywall.com](https://www.removepaywall.com/)** - Read any article without paywalls, signups, or tracking.
 - **[Grad Connection](https://au.gradconnection.com/)** - Australian platform connecting students and graduates with internships and graduate job programs.
 
 **[⬆ back to top](#contents)**
