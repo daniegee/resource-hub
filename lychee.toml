@@ -12,5 +12,6 @@ max_retries = 3
 # The default lychee UA gets blocked by some sites; look like a browser.
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
-# Open Library redirects automated requests to a bot-check page.
-exclude = ["^https://openlibrary\\.org/?$"]
+# Open Library redirects automated requests to a bot-check page, and
+# Awwwards consistently times out for automated requests.
+exclude = ["^https://openlibrary\\.org/?$", "^https://www\\.awwwards\\.com/?$"]
